@@ -36,10 +36,10 @@ if (args.rules || args.r) {
     process.exit(0);
 }
 
-let turn = args._[0];
+let shot = args._[0];
 
 try {
-    console.log(JSON.stringify(rpsls(turn)));
+    console.log(JSON.stringify(rpsls(shot)));
     
 } catch (error){
     console.log(help);
