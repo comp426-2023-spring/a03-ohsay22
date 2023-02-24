@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "bin": {
-    "node-rps": "./bin/rps-cli.js"
-  },
   "bin": {
     "node-rpsls": "rpsls-cli.js"
   },
@@ -21,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a03-ohsay22/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a03-ohsay22#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a03-ohsay22#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
 }
