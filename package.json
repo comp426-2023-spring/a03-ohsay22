@@ -23,6 +23,5 @@
   "dependencies": {
     "minimist": "^1.2.8"
   }
-}
-"type": "module"
+  "type": "module"
 }
